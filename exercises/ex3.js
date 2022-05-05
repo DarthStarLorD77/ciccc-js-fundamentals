@@ -33,3 +33,16 @@ What goes into the three blank spaces? You can fill in the blanks with the name 
 
 Mr. Parkes did it in the dining room with the knife!
 */
+
+const supsect = "Mr. Parkes";
+const room = "dining room";
+let weapon = "";
+let solved = false;
+
+if (room === "dining room") {
+    weapon = "knife";
+    if (suspect === "Mr. Parkes") {
+        solved = true;
+    }
+}
+

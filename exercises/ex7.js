@@ -21,3 +21,30 @@ In 2015, a person with a Bachelor's degree earned an average of $59,124/year.
 TIP: To print out the average salary with commas (i.e. 59,124), use the toLocaleString() method and pass it the locale "en-US". For example, salary.toLocaleString("en-US"). 
 
 */
+
+let salary 
+let grade = "Master's Degree";
+
+switch(grade) {
+    case "no high school diploma" : {
+        salary = "$25,636/year";
+    }
+    case "high school diploma" : {
+        salary = "$35,256/year";
+    }
+    case "Associate's degree" : {
+        salary = "$41,496/year";
+    }
+    case "Bachelor's Degree" : {
+        salary = "$59,124/year";
+    }
+    case "Master's Degree" : {
+        salary = "69,732/year";
+    }
+    case "Professional degree" : {
+        salary = "89,960/year";
+    }
+    case "Doctoral degree" : {
+        salary = "$84,396";
+    }
+}

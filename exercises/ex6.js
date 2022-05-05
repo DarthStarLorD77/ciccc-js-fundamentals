@@ -15,3 +15,10 @@ Use the eatsPlants and eatsAnimals variables to test your code.
 
 If eatsPlants equals true and eatsAnimals equals false, then herbivore should be printed to the console. 
 */
+
+const eatsAnimals = false;
+const eatsPlants = false;
+
+let category = (eatsPlants) ? ((eatsAnimals) ? "omnivore" : "herbivore") : eatsAnimals ? "carnivore" : undefined;
+console.log(category);
+
